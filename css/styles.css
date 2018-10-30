@@ -3,6 +3,10 @@
 /* applies to screens smaller than 500px (first breakpoint) */
 /* and above unless overwritten below */
 
+nav {
+  display: none;
+}
+
 body {
   background: #fcc;
 }
@@ -12,11 +16,24 @@ body {
   line-height: 2em;
 }
 
+.menu:hover + nav{
+   display: flex;
+}
+
+nav:hover{
+  display: flex;
+}
+
+
 /* TABLET STYLES */
 
 @media screen and (min-width: 500px) {
 
   /* applies to screens wider than 499px */
+
+  .menu {
+    display: none;
+  }
 
   body {
     background: #cfc;
@@ -36,7 +53,7 @@ body {
   nav a:hover {
     color: #dfd;
     background: #797;
-  }
+  }*/
 }
 
 
