@@ -16,11 +16,18 @@ body {
   line-height: 2em;
 }
 
-.menu:hover + nav{
-   display: flex;
-}
+/*CSS menu hover*/
 
-nav:hover{
+/*.menu:hover + nav{
+   display: flex;
+}*/
+
+
+/*nav:hover{
+  display: flex;
+}*/
+
+.menu-toggle{
   display: flex;
 }
 
@@ -53,7 +60,7 @@ nav:hover{
   nav a:hover {
     color: #dfd;
     background: #797;
-  }*/
+  }
 }
 
 
